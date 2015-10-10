@@ -1,0 +1,49 @@
+# 课堂讲义
+最简单的程序：
+#include<stdio.h>
+int main()
+{
+	return 0;
+}
+计算两个数的和：
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("%d\n",a+b);
+}
+变量类型：
+int 整型变量，表示整数；
+float 浮点数型变量，表示浮点数；
+char 字符型变量，表示字符；
+scanf：读入数据
+printf：输出到屏幕
+计算立方体的体积：
+#include<stdio.h>
+int main()
+{
+	int h,w,l;
+	scanf("%d%d%d",&h,&w,&l);
+	printf("%d\n",h*w*l);
+	return 0;
+}
+给定一个三位数，把它逆序输出：
+#include<stdio.h>
+int main()
+{
+	int a;
+	scanf("%d"，&a);
+	printf("%d %d %d\n",a%10,a/10%10,a/100);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	chat a,b,c;
+	scanf("%c%c%c",&a,&b,&c);
+	printf("%c%c%c\n",c,b,a);
+	return 0;
+}
+
+未完带续……
