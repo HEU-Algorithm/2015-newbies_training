@@ -45,5 +45,47 @@ int main()
 	printf("%c%c%c\n",c,b,a);
 	return 0;
 }
-
-未完带续……
+屏幕上输出1-100数字，每个一行
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=100;i=i+1)
+    {
+        printf("%d\n",i);
+    }
+    return 0;
+}
+屏幕上顺序输出1-100间的偶数，每个一行
+#include<stdio.h>
+int main()
+{
+    for(int i=2;i<=100;i=i+2)
+    {
+        printf("%d\n",i);
+    }
+    return 0;
+}
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    while(i<=100)
+    {
+        printf("%d\n",i);
+        i=i+1;
+    }
+    return 0;
+}
+continue语句：忽略continue后面的语句，直接跳到循环判断语句继续执行循环
+break语句：跳出循环
+多组输入数据
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    while(scnaf("%d%d".&a,&b)!=EOF)
+    {
+        printf("%d\n",a+b);
+    }
+    return 0;
+}
