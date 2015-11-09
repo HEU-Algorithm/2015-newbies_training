@@ -3,5 +3,6 @@
 - 讲解方向：**递归&&模拟**
 - 课后练习题[end time恶意满满]：
     <a href = "http://www.bnuoj.com/v3/contest_show.php?cid=7221">HEU 算法学社</a>
-- 课件：我想起来再说
+- 课件：
+    <a href = "http://pan.baidu.com/s/1o6q0efg">课件</a>
 - over.
